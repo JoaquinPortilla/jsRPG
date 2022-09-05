@@ -1,0 +1,75 @@
+*, *::before, *::after {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background-image: url(../images/jstown.gif);
+  background-size: cover;
+}
+
+/* Caja */
+.containerBox{
+  padding: 100px 0;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 800px;
+  max-width: 80%;
+  background-color:rgba(248, 227, 221, 0.801);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+}
+
+/* Botones */
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
+.btn {
+  background-color: hsl(24, 100%, 50%);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+.btn:hover {
+  border-color: white;
+}
+
+/* Mapa */
+#map{
+  margin: 20px;
+}
+.map {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.map img {
+  width: 32vw;
+}
+
+/* Inventario */
+fieldset {
+  padding: 0 10px 10px 10px;
+  border: 1px solid black;
+}
+legend {
+  width: auto;
+}
+
+/* Chart */
+.myChart{
+  max-block-size: 300px;
+}
